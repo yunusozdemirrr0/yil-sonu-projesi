@@ -1,0 +1,154 @@
+*{font-family: "Poppins" ,sans-serif; margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+header#header_navbar div#nav_bar_big{
+    background-color: white;
+    /*background-color: rgb(55, 50, 133);*/
+    border-bottom-left-radius: 6px ;
+    border-bottom-right-radius: 6px;
+    height: 80px; line-height: 75px;
+}
+header#header_navbar {
+    background-color: blueviolet;
+    height: 25px;
+}
+div#nav_bar_small{
+    height: 15px;
+    background: linear-gradient(to right , blue ,green , yellow , purple,pink);
+}
+header#header_navbar div#nav_bar_big a{
+    font-size: 24px;
+    margin-left: 8px;
+    margin: 10px;
+    color: black;
+    padding: 15px;
+    border-radius: 6px;
+}
+header#header_navbar div div{
+    width: calc(100% - 170px);
+    text-align: right;
+}
+.input_text_custom{
+    text-align: left;
+    padding-left:7px ;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 600px;
+    height: 40px;
+    color: white;
+    
+}
+/* Button özellikleri */
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 8.75px;
+    margin-right: 150px ;
+    color: black;
+    width: 80px;
+}
+.head_kategori ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    list-style-type: none; 
+}
+.head_kategori ul li a{
+    margin-right: 10px;
+}
+/* büyük navbarda mouse üzerine gelince yapılan işlemler */ 
+header#header_navbar div#nav_bar_big a:hover {
+    color: rgb(41, 65, 173);
+
+
+}
+/* Küçük navbarda mouse üzerine gelince yapılan işlemler*/
+header#header_navbar main.head_kategori ul li a:hover{
+    color: rgb(223, 167, 14);
+}
+
+/*
+header#header_navbar main.head_kategori ul li ul {
+    display: none;
+}
+*/
+header#header_navbar main.head_kategori ul li:hover ul  {
+    display: block;
+}
+main.head_kategori ul li ul{
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: -5px;
+}
+main.head_kategori ul li ul li{
+    width: 200px;
+}
+
+main.head_kategori li {
+    position: relative;
+}
+
+/* POPÜLER ÜRÜNLER İÇİN CSS KODLARI BUNDAN SONRA BAŞLIYOR */
+
+section tr td{
+    border: 1px solid rgb(104, 102, 102);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding-bottom: 20px;
+    
+}
+section table{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+section table tr img{
+    padding-bottom: 20px;
+}
+section table tr h4{
+    font-size: 12px;
+    padding-left: 7px;
+}
+section table tr p{
+    font-size: 11px;
+    padding-left:8px;
+}
+section table tr div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: right;
+    
+    
+
+}
+
+section table tr button{
+    display: flex-end;
+    width: 100px;
+    height: 30px;
+    margin: 25px 0px 0px 120px; 
+    padding-top: 4px;
+    
+}
+section table tr button:hover{
+    background-color: rgb(250, 191, 80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
