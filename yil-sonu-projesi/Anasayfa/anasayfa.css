@@ -90,16 +90,38 @@ main.head_kategori ul li ul li{
 main.head_kategori li {
     position: relative;
 }
-main.head_kategori ul {
-    background-color: rgba(122, 118, 118, 0.199);
-    
+
+#urunler {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    margin-top: 100px;
 }
-main.head_kategori ul ul{
-    
 
+.urun {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fafafa;
 }
 
+.urun img {
+    max-width: 100%;
+    height: auto;
+}
 
+.urun h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.urun p {
+    color: #0284c7;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 
 
